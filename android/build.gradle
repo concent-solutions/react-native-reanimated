@@ -11,7 +11,8 @@ buildscript {
         // module dependency in an application project.
         repositories {
             google()
-            jcenter()
+            // jcenter()
+            mavenCentral()
         }
         dependencies {
             classpath 'com.android.tools.build:gradle:3.5.2'
