@@ -11,7 +11,8 @@ buildscript {
         // module dependency in an application project.
         repositories {
             google()
-            jcenter()
+            // jcenter()
+            mavenCentral()
         }
         dependencies {
             classpath 'com.android.tools.build:gradle:3.5.2'
@@ -60,7 +61,7 @@ repositories {
 
 dependencies {
     //noinspection GradleDynamicVersion
-    implementation 'com.facebook.react:react-native:+'  // From node_modules
+    implementation 'com.facebook.react:react-native:0.68.3!!'  // From node_modules
     implementation "androidx.transition:transition:1.1.0"
 }
 
